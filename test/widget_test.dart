@@ -24,6 +24,7 @@ void main() {
     await tester.pump();
 //this is the only line i want to change...
     // Verify that our counter has incremented.
+    // idont know what i'm doing
     expect(find.text('0'), findsNothing);
     expect(find.text('1'), findsOneWidget);
   });
